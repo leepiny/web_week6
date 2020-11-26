@@ -80,13 +80,22 @@ a{
 }
 .discount-product{
     .discount-photo{
+        position: relative;
         height: 540px;
+        overflow: hidden;
         img{
+            transition: transform 1s ease;
             width: 100%;
             height: 100%;
             object-fit:cover;
         }
     }
+    .discount-photo:hover{
+        img{
+            transform: scale(1.2);
+        }
+    }
+
 }
 .sold-out-item{
     position: relative;
@@ -100,7 +109,7 @@ a{
         color: white;
     }
 }
-footer{
+.bg-photo{
     background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index10.jpg)center center no-repeat;
     background-size: cover;
     .subscribe{

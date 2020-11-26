@@ -116,3 +116,13 @@ a{
         height: 70vh;
     }
 }
+.MyPage{
+    .page-meber-item a{
+        transition: 1s;
+        border-bottom: 2px solid transparent;
+    }
+    .page-meber-item a:hover{
+        border-bottom: 2px solid $primary;
+        
+    }
+}

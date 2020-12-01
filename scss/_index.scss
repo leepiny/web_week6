@@ -123,6 +123,14 @@ a{
     }
     .page-meber-item a:hover{
         border-bottom: 2px solid $primary;
-        
+    }
+}
+
+.product-item{
+    cursor: pointer;
+    img{
+        width: 100%;
+        height: 276px;
+        object-fit:cover;
     }
 }
